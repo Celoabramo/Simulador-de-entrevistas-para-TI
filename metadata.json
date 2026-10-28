@@ -1,0 +1,6 @@
+{
+  "name": "Simulador de Entrevistas com IA",
+  "description": "Simulador inteligente de entrevistas de emprego com IA e feedback estratégico personalizado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
