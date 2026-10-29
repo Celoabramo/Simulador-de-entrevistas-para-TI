@@ -1,3 +1,4 @@
+# Node & Web
 node_modules/
 build/
 dist/
@@ -6,3 +7,20 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Python & Google ADK
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+*.egg-info/
+
+# Relatórios e dados pessoais gerados pelo agente
+agente-entrevistas/relatorios/*
+!agente-entrevistas/relatorios/.gitkeep
+relatorios/*
+!relatorios/.gitkeep

@@ -1,0 +1,14 @@
+[project]
+name = "agente-entrevistas"
+version = "0.1.0"
+description = "Agente especialista em simulação de entrevistas técnicas em inglês com Google ADK e Antigravity CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=1.29.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
